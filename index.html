@@ -1,20 +1,93 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en">   
+    <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Document</title>
+            <link rel="stylesheet" href="style.css">
+        </head>
+        <body>
+            <header>
+                
+            </header>
+            <aside> 
+                <p>
+                    Evento certo
+                    O conjunto do evento é igual ao espaço amostral, ou seja, possuem os mesmos elementos.
+                    
+                    Exemplo
+                    Em uma delegação feminina de atletas, uma ser sorteada ao acaso e ser mulher. Como a probabilidade é de 100%, o evento é certo.
+                    
+                    Evento impossível
+                    O conjunto do evento é vazio.
+                    
+                    Exemplo
+                    Imagine que temos uma caixa com bolas numeradas de 1 a 20 e que todas as bolas são vermelhas.
+                    
+                    O evento "tirar um número maior que 30" é impossível, visto que o maior número na caixa é 20.
+                    
+                    Evento complementar
+                    Os conjuntos de dois eventos formam todo o espaço amostral, sendo um evento complementar ao outro.
+                    
+                    Exemplo
+                    No experimento lançar uma moeda, o espaço amostral é Ω = {cara, coroa}.
+                    
+                    Seja o evento A sair cara, A={cara}, o evento B sair coroa é complementar ao evento A, pois, B={coroa}. Juntos formam o próprio espaço amostral.
+                    
+                    Evento mutuamente exclusivo
+                    Os conjuntos dos eventos não possuem elementos em comum. A intersecção entre os dois conjuntos é vazia.
+                    
+                    Exemplo
+                    Seja o experimento lançar um dado, os seguintes eventos são mutuamente exclusivos
+                    
+                    A: ocorrer um número menor que 5, A={1, 2, 3, 4}
+                    B: ocorrer um número maior que 5, A={6}
+                </p>
+           </aside>
+            <main>
+                <p>
+                    A teoria da probabilidade é o campo da Matemática que estuda experimentos ou fenômenos aleatórios. Através dela, é possível analisar as chances de um determinado evento ocorrer.
+
+Um experimento aleatório é aquele que não é possível conhecer qual resultado será encontrado antes de realizá-lo.
+
+Quando calculamos a probabilidade, estamos associando um grau de confiança à ocorrência dos resultados possíveis de experimentos, cujos resultados não podem ser determinados antecipadamente. Assim, a probabilidade é a medida da chance de algo acontecer.
+
+O cálculo da probabilidade associa a ocorrência de um resultado a um valor que varia de 0 a 1 e, quanto mais próximo de 1 estiver o resultado, maior é a certeza da sua ocorrência.
+
+Um exemplo de experimento aleatório é jogar um dado para o alto. Ao cair, não é possível prever com total certeza qual das 6 faces estará voltada para cima.
+
+O cálculo da probabilidade é uma divisão entre a quantidade de casos favoráveis à ocorrência do evento e o total de casos possíveis.
+
+No exemplo do dado, se queremos conhecer a probabilidade da face 2 estar voltada para cima, este é o único caso favorável. O número total de casos possíveis é seis, por ser a quantidade de faces no dado.
+
+A probabilidade de sair a face 2 é:
+
+1 / 6 = 0,16666 …
+
+Em porcentagem, são aproximadamente 16,6%.
+
+Para facilitar o cálculo da probabilidade, podemos recorrer a uma fórmula que nos auxilia a organizar as informações.
+                </p>
+                <body>
+                <form>
+                    <h1>Você joga LOL?</h1>
+                    <input type="radio" name="resposta" value="errada">Sim, eu sou cabeço! <br>
+                    <input type="radio" name="resposta" value="correta">Não, não sou cabeço! <br>
+                    <input type="radio" name="resposta" value="errada">Não, eu jogo tibia <br>
+                    <input type="radio" name="resposta" value="errada">Não,mas sou cabeço! <br>
+                    <button type="button" onclick="funcaoCorrigir()">Corrigir</button>
+                    <p id="retorno"></p>
+                </form>
+                <script src="script.js"></script>
+            </body>
+        </main>
+            <footer>rodape</footer>
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
-    <form>
-        <h1>Você joga LOL?</h1>
-        <input type="radio" name="resposta" value="errada">Sim, eu sou cabeço! <br>
-        <input type="radio" name="resposta" value="correta">Não, não sou cabeço! <br>
-        <input type="radio" name="resposta" value="errada">Não, eu jogo tibia <br>
-        <input type="radio" name="resposta" value="errada">Não,mas sou cabeço! <br>
-        <button type="button" onclick="funcaoCorrigir()">Corrigir</button>
-        <p id="retorno"></p>
-    </form>
-    <script src="script.js"></script>
-</body>
+
 </html>
